@@ -1,5 +1,5 @@
-import {MdEmail} from "react-icons/md"
-import {MdPhone} from "react-icons/md"
+import {FaLinkedin} from "react-icons/fa"
+import {FaGithubSquare} from "react-icons/fa"
 
 function FrontendCard() {
   return (
@@ -11,12 +11,12 @@ function FrontendCard() {
         </div>
         <div className="space-y-2">
             <div className="flex items-center gap-2">
-                <MdEmail className="md:w-[25px] md:h-[25px]" />
-                <p className="md:text-lg text-sm">aron@example.com</p>
+                <FaLinkedin className="md:w-[25px] md:h-[25px]" />
+                <p className="md:text-lg text-sm"><a href="https://www.linkedin.com/in/brian-ar%C3%B3n-g%C3%B3mez-sequeiros/" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-400 hover:underline transition">Aron Gómez</a></p>
             </div>
             <div className="flex items-center gap-2">
-                <MdPhone className="md:w-[25px] md:h-[25px]" />
-                <p className="text-sm md:text-lg">(+51) 111111111</p>
+                <FaGithubSquare className="md:w-[25px] md:h-[25px]" />
+                <p className="text-sm md:text-lg"><a href="https://github.com/Bagse" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-400 hover:underline transition">Bagse</a></p>
             </div>
         </div>
         <div>

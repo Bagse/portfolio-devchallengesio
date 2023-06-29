@@ -10,12 +10,12 @@ function ProjectCard({img, name, description, demo, code}) {
         className="rounded-lg w-[322px] hover:scale-105 transition"
       />
       <div className="flex flex-col gap-3">
-        <ul className="uppercase flex gap-3 text-base">
+        <ul className="uppercase flex gap-3 text-sm md:text-base">
           <li>#vitejs</li>
           <li>#tailwind</li>
           <li>#responsive</li>
         </ul>
-        <h2 className="capitalize text-[#333333] text-2xl font-bold">{name}</h2>
+        <h2 className="capitalize text-[#333333] text-xl md:text-2xl font-bold">{name}</h2>
         <p className="text-base text-[#828282]">
           {description}
         </p>

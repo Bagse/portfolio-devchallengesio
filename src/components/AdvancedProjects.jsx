@@ -9,10 +9,7 @@ function AdvancedProjects() {
     <ProjectAdvanCard
       img="./img/soundfy.png"
       name="soundfy"
-      description="In this article I tell the story about Proin eu justo sit amet lacus
-          bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi. Donec
-          aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat
-          malesuada molestie."
+      description="This project uses Next.js with React as a base to develop a Spotify-style web application, where users can upload songs, create playlists and bookmark their favorites. Supabase for database management and authentication."
       demo="https://soundfy-nine.vercel.app/"
     />
   );
@@ -22,10 +19,7 @@ function AdvancedProjects() {
     <ProjectAdvanCard
       img="./img/github-store.png"
       name="github merch"
-      description="In this article I tell the story about Proin eu justo sit amet lacus
-          bibendum tincidunt. Vivamus non volutpat nisl, a luctus mi. Donec
-          aliquam est dui, vel vestibulum diam sollicitudin id. Quisque feugiat
-          malesuada molestie."
+      description="This project uses Next.js with React as a base to develop an ecommerse web application, where users can add products to a shopping cart and be able to change quantities. Each product has its own information."
       demo="https://github-merch.vercel.app/"
     />
   );
